@@ -1,6 +1,7 @@
 - title: "OpenRob"
   role: "Tech Lead"
   affiliation: "iTec/FURG Embrapii"
+  logo: "/images/openrob_logo.png"
   period: "Jan 2026 - Present"
   status: "ongoing"
   description: "A mobile manipulation robot prototype guided by language and vision, capable of planning and executing tasks in human-designed environments."
@@ -36,8 +37,10 @@
 - title: "FBOT@Home"
   role: "Team Member & Researcher"
   affiliation: "FBOT Robotics Team"
+  logo: "/images/fbot_logo.png"
   period: "Mar 2023 - Present"
   status: "ongoing"
+  image: "/images/fbot.jpeg"
   description: "Development of the domestic robots DoRIS and BORIS for the RoboCup@Home competition, aiming to set a benchmark for comparing General Purpose Service Robots in domestic environments."
   highlights:
     - "Worked across multiple areas of domestic robotics including ROS2 computer vision, robotic manipulation, 3D scene understanding, human-robot interaction, and general-purpose task planning and execution."
