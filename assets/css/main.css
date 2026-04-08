@@ -686,6 +686,10 @@ img {
   flex-shrink: 0;
 }
 
+.project-card-logo[src*="icrane"] {
+  filter: invert(1);
+}
+
 .project-card-summary-content {
   flex: 1;
   min-width: 0;

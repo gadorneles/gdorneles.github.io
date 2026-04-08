@@ -20,6 +20,7 @@
 - title: "iCrane"
   role: "Robotics Software Engineer"
   affiliation: "iTec/FURG Embrapii"
+  logo: "/images/icrane_logo.png"
   period: "Oct 2022 - Present"
   status: "ongoing"
   description: "An R&D project developing an automated crane to assist operators on Petrobras' Floating Production Storage and Offloading (FPSO) units."
