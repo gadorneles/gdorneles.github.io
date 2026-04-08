@@ -199,6 +199,13 @@ img {
   font-weight: 500;
 }
 
+.hero-group {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  font-weight: 400;
+  margin-top: 0.25rem;
+}
+
 .hero-bio-label {
   font-size: 1.15rem;
   font-weight: 700;
