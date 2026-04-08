@@ -796,6 +796,7 @@ details.project-card--full[open] .project-chevron {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+  margin-top: 1.25rem;
 }
 
 .project-tag {

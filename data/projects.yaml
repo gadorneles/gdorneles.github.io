@@ -48,7 +48,7 @@
     - "Contributed to 6 published papers spanning robotic manipulation, LLM-based task planning, and computer vision as part of the FBOT Research division."
     - "Served as Program Committee Member for the RoboCup Symposium in 2025 and 2026, contributing to peer review of technical submissions."
     - "Mentored undergraduate students through their first research projects, several of whom have gone on to publish and present their own work."
-  tags: []
+  tags: ["ROS2", "Mobile Robotics", "Task Planning", "Computer Vision", "Robotic Manipulation", "Human-Robot Interaction"]
   links:
     - label: "GitHub"
       url: "https://github.com/fbotathome"
@@ -70,7 +70,8 @@
 - title: "Robot Gardener"
   role: "Robotics Software Engineer"
   affiliation: "iTec/FURG Embrapii"
-  period: "Mar 2024 - Dec 2025"
+  logo: "/images/gardener_logo.png"
+  period: "Mar 2024 - Dec 2025 · 1 yr 10 mos"
   status: "past"
   description: "An R&D project in partnership with STIHL, focused on developing an autonomous mobile platform to locate and eliminate lawn weeds."
   highlights:
