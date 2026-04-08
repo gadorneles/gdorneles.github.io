@@ -1,34 +1,40 @@
 <section id="publications" class="section">
   <div class="section-inner">
     <h2 class="section-title">Publications</h2>
+
+    {{ $pubs := .Site.Data.publications }}
+
+    {{ $conferences := where $pubs "type" "conference" }}
+    {{ $chapters := where $pubs "type" "book_chapter" }}
+    {{ $journals := where $pubs "type" "journal" }}
+
+    {{ if $conferences }}
+    <h3 class="publication-group-title">Conference Papers</h3>
     <div class="publication-list">
-      {{ range $i, $pub := .Site.Data.publications }}
-      <div class="publication-item">
-        <div class="publication-title">
-          {{ if $pub.url }}<a href="{{ $pub.url }}" target="_blank" rel="noopener">{{ $pub.title }}</a>{{ else }}{{ $pub.title }}{{ end }}
-        </div>
-        <div class="publication-authors">{{ $pub.authors }}</div>
-        <div>
-          <span class="publication-venue">{{ $pub.venue }}</span>
-          <span class="publication-year">&middot; {{ $pub.year }}</span>
-        </div>
-        <div class="publication-actions">
-          {{ with $pub.url }}
-          <a href="{{ . }}" target="_blank" rel="noopener" class="pub-btn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-            Link
-          </a>
-          {{ end }}
-          {{ with $pub.bibtex }}
-          <button class="pub-btn" onclick="copyBibtex(this)" data-bibtex="{{ . | htmlEscape }}">
-            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
-            <span class="bibtex-label">BibTeX</span>
-          </button>
-          {{ end }}
-        </div>
-      </div>
+      {{ range $conferences }}
+      {{ partial "publication-entry.html" . }}
       {{ end }}
     </div>
+    {{ end }}
+
+    {{ if $chapters }}
+    <h3 class="publication-group-title">Book Chapters</h3>
+    <div class="publication-list">
+      {{ range $chapters }}
+      {{ partial "publication-entry.html" . }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{ if $journals }}
+    <h3 class="publication-group-title">Journal Articles</h3>
+    <div class="publication-list">
+      {{ range $journals }}
+      {{ partial "publication-entry.html" . }}
+      {{ end }}
+    </div>
+    {{ end }}
+
   </div>
 </section>
 

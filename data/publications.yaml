@@ -1,38 +1,90 @@
-- title: "A Novel Approach to Distributed Task Scheduling"
-  authors: "G. Dorneles, A. Silva, M. Santos"
-  venue: "International Conference on Software Engineering (ICSE)"
+- title: "AffordGen: Affordance-Based Dataset Generator for Robot Manipulation Learning"
+  authors: "Gabriel A Dorneles, João Francisco SS Lemos, Kristofer S Kappel, Rodrigo S Guerra, Paulo LJ Drews"
+  venue: "2025 IEEE International Conference on Advanced Robotics (ICAR)"
+  year: 2025
+  type: "conference"
+  url: "https://ieeexplore.ieee.org/document/11338672"
+  bibtex: |
+    @inproceedings{dorneles2025affordgen,
+      title={AffordGen: Affordance-Based Dataset Generator for Robot Manipulation Learning},
+      author={Dorneles, G. A. and Lemos, J. F. S. S. and Kappel, K. S. and Guerra, R. S. and Drews, P. L. J.},
+      booktitle={2025 IEEE International Conference on Advanced Robotics (ICAR)},
+      year={2025}
+    }
+
+- title: "Benchmarking Digital Twins for Tower Cranes: Isaac Sim vs. Gazebo"
+  authors: "Juliana Dos Santos, Murilo Bicho, Tony Froes, Gabriel Dorneles, Silvia Botelho, Eder Gonçalves, Marcelo Pias"
+  venue: "IECON 2025 – 51st Annual Conference of the IEEE Industrial Electronics Society"
+  year: 2025
+  type: "conference"
+  url: "https://ieeexplore.ieee.org/abstract/document/11221823"
+  bibtex: |
+    @INPROCEEDINGS{11221823,
+      author={Dos Santos, Juliana and Bicho, Murilo and Froes, Tony and Dorneles, Gabriel and Botelho, Silvia and Gonçalves, Eder and Pias, Marcelo},
+      booktitle={IECON 2025 – 51st Annual Conference of the IEEE Industrial Electronics Society},
+      title={Benchmarking Digital Twins for Tower Cranes: Isaac Sim vs. Gazebo},
+      year={2025},
+      pages={1-8},
+      doi={10.1109/IECON58223.2025.11221823}}
+
+- title: "Review of Surface Reconstruction: From Classical Methods to Neural Radiance Fields"
+  authors: "João Francisco SS Lemos, Igor P Maurell, Kristofer S Kappel, Gabriel A Dorneles, Stephanie L Brião, Felipe G Oliveira, Nelson L Duarte Filho, Rodrigo Da S Guerra, Paulo LJ Drews"
+  venue: "2025 Brazilian Conference on Robotics (CROS)"
+  year: 2025
+  type: "conference"
+  url: "https://ieeexplore.ieee.org/abstract/document/11066131"
+  bibtex: |
+    @INPROCEEDINGS{11066131,
+      author={Lemos, João Francisco S. S. and Maurell, Igor P. and Kappel, Kristofer S. and Dorneles, Gabriel A and Brião, Stephanie L. and Oliveira, Felipe G. and Duarte Filho, Nelson L. and Guerra, Rodrigo Da S. and Drews, Paulo L. J.},
+      booktitle={2025 Brazilian Conference on Robotics (CROS)},
+      title={Review of Surface Reconstruction: From Classical Methods to Neural Radiance Fields},
+      year={2025},
+      volume={1},
+      pages={1-6},
+      doi={10.1109/CROS66186.2025.11066131}}
+
+- title: "Digital Environment Description and Reconstruction Using Panoptic Segmentation"
+  authors: "João Francisco de Souza Santos Lemos, Gabriel Amaral Dorneles, Igor Pardo Maurell, Stephanie Loi Brião, Rodrigo da Silva Guerra, Paulo Lilles Jorge Drews Junior"
+  venue: "RoboCup 2024: Robot World Cup XXVII. Lecture Notes in Computer Science, vol 15570. Springer, Cham."
+  year: 2025
+  type: "book_chapter"
+  url: "https://link.springer.com/chapter/10.1007/978-3-031-85859-8_20"
+  bibtex: |
+    @InProceedings{10.1007/978-3-031-85859-8_20,
+      author="de Souza Santos Lemos, Jo{\~a}o Francisco and Amaral Dorneles, Gabriel and Maurell, Igor Pardo and Bri{\~a}o, Stephanie Loi and da Silva Guerra, Rodrigo and Drews Junior, Paulo Lilles Jorge",
+      title="Digital Environment Description and Reconstruction Using Panoptic Segmentation",
+      booktitle="RoboCup 2024: Robot World Cup XXVII",
+      year="2025",
+      publisher="Springer Nature Switzerland",
+      pages="236--246",
+      isbn="978-3-031-85859-8"}
+
+- title: "Teach and Repeat for Path Planning Using Bézier Curves"
+  authors: "Jardel Dos Santos Dyonisio, Luís Felipe Milczarek, Nicolas Freitas Dias, Stephanie Loi Brião, Gabriel Amaral Dorneles, Igor Pardo Maurell, Pedro Miranda Pinheiro, Rodrigo Da Silva Guerra, Paulo Lilles Jorge Drews-Jr"
+  venue: "2024 Brazilian Symposium on Robotics (SBR) and 2024 Workshop on Robotics in Education (WRE)"
   year: 2024
-  url: "https://doi.org/10.1000/example1"
+  type: "conference"
+  url: "https://ieeexplore.ieee.org/abstract/document/10837801"
   bibtex: |
-    @inproceedings{dorneles2024distributed,
-      title={A Novel Approach to Distributed Task Scheduling},
-      author={Dorneles, G. and Silva, A. and Santos, M.},
-      booktitle={International Conference on Software Engineering (ICSE)},
-      year={2024}
-    }
+    @INPROCEEDINGS{10837801,
+      author={Dos Santos Dyonisio, Jardel and Felipe Milczarek, Luís and Freitas Dias, Nicolas and Loi Brião, Stephanie and Amaral Dorneles, Gabriel and Pardo Maurell, Igor and Miranda Pinheiro, Pedro and Da Silva Guerra, Rodrigo and Lilles Jorge Drews-Jr, Paulo},
+      booktitle={2024 Brazilian Symposium on Robotics (SBR) and 2024 Workshop on Robotics in Education (WRE)},
+      title={Teach and Repeat for Path Planning Using Bézier Curves},
+      year={2024},
+      pages={79-84},
+      doi={10.1109/SBR/WRE63066.2024.10837801}}
 
-- title: "Efficient Resource Allocation in Cloud Environments"
-  authors: "G. Dorneles, B. Oliveira"
-  venue: "Journal of Systems and Software"
-  year: 2023
-  url: "https://doi.org/10.1000/example2"
+- title: "Performance-watt analysis of GPU-based digital twin simulations"
+  authors: "Juliana dos Santos, Murilo Bicho, Tony Froes, Gabriel Dorneles, Marcelo Pias, Eder Gonçalves, Silvia Botelho"
+  venue: "IECON 2024 - 50th Annual Conference of the IEEE Industrial Electronics Society"
+  year: 2024
+  type: "conference"
+  url: "https://ieeexplore.ieee.org/abstract/document/10983989"
   bibtex: |
-    @article{dorneles2023efficient,
-      title={Efficient Resource Allocation in Cloud Environments},
-      author={Dorneles, G. and Oliveira, B.},
-      journal={Journal of Systems and Software},
-      year={2023}
-    }
-
-- title: "Towards Scalable Microservice Architectures"
-  authors: "G. Dorneles, C. Ferreira, D. Lima"
-  venue: "IEEE International Conference on Cloud Computing"
-  year: 2023
-  url: "https://doi.org/10.1000/example3"
-  bibtex: |
-    @inproceedings{dorneles2023scalable,
-      title={Towards Scalable Microservice Architectures},
-      author={Dorneles, G. and Ferreira, C. and Lima, D.},
-      booktitle={IEEE International Conference on Cloud Computing},
-      year={2023}
-    }
+    @INPROCEEDINGS{10983989,
+      author={dos Santos, Juliana and Bicho, Murilo and Froes, Tony and Dorneles, Gabriel and Pias, Marcelo and Gonçalves, Eder and Botelho, Silvia},
+      booktitle={IECON 2024 - 50th Annual Conference of the IEEE Industrial Electronics Society},
+      title={Performance-watt analysis of GPU-based digital twin simulations},
+      year={2024},
+      pages={1-6},
+      doi={10.1109/IECON55916.2024.10983989}}

@@ -1,0 +1,24 @@
+<div class="publication-item">
+  <div class="publication-title">
+    {{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}
+  </div>
+  <div class="publication-authors">{{ .authors }}</div>
+  <div>
+    <span class="publication-venue">{{ .venue }}</span>
+    <span class="publication-year">&middot; {{ .year }}</span>
+  </div>
+  <div class="publication-actions">
+    {{ with .url }}
+    <a href="{{ . }}" target="_blank" rel="noopener" class="pub-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+      Link
+    </a>
+    {{ end }}
+    {{ with .bibtex }}
+    <button class="pub-btn" onclick="copyBibtex(this)" data-bibtex="{{ . | htmlEscape }}">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+      <span class="bibtex-label">BibTeX</span>
+    </button>
+    {{ end }}
+  </div>
+</div>
