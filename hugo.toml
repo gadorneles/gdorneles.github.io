@@ -5,7 +5,7 @@ title = "Gabriel Dorneles"
 [params]
   name = "Gabriel Dorneles"
   title = "Automation Engineer"
-  bio = "Automation Engineer with passion for robotics and hands-on experience as a researcher in multiple R&D projects, including the development of an outdoor mobile robot for gardening tasks in collaboration with STIHL, and the creation of a digital twin of an FPSO in partnership with Petrobras. Currently a master's student and robotics developer with the FBOT Robotics Team in the @Home category, working on autonomous solutions for domestic challenges."
+  bio = "Automation Engineer and M.Sc. student in Computer Engineering at FURG, researching robotics and intelligent automation. My work focuses on building autonomous robots that perceive, reason, and act in real-world environments, spanning mobile manipulation, computer vision, and language-guided task planning. I develop solutions across R&D projects at iTec/FURG Embrapii and compete internationally with the FBOT Robotics Team in RoboCup@Home."
   email = "gdorneles@furg.br"
   github = "https://github.com/gadorneles"
   linkedin = "https://www.linkedin.com/in/gdorneles"
