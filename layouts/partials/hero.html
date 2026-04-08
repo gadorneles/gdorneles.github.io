@@ -4,10 +4,11 @@
       <img src="{{ .Site.Params.profileImage }}" alt="{{ .Site.Params.name }}" class="hero-photo">
       <h1 class="hero-name">{{ .Site.Params.name }}</h1>
       <p class="hero-title">{{ .Site.Params.title }}</p>
+      {{ with .Site.Params.group }}<p class="hero-group">{{ . }}</p>{{ end }}
     </div>
     <div>
       <h2 class="hero-bio-label">Brief Bio</h2>
-      <p class="hero-bio">{{ .Site.Params.bio }}</p>
+      <p class="hero-bio">{{ .Site.Params.bio | safeHTML }}</p>
       <div class="hero-socials">
         {{ with .Site.Params.email }}
         <a href="mailto:{{ . }}">
