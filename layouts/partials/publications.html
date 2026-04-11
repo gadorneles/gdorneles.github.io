@@ -118,7 +118,7 @@ function downloadCitation() {
 function scrollToPub() {
   const hash = window.location.hash;
   if (!hash || !hash.startsWith('#pub-')) return;
-  const target = document.querySelector(hash);
+  const target = document.getElementById(hash.substring(1));
   if (!target) return;
   if (target.classList.contains('publication-item--hidden') && !target.classList.contains('publication-item--visible')) {
     const btn = target.closest('.publication-list').nextElementSibling;
