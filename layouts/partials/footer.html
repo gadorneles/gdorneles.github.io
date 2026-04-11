@@ -1,3 +1,22 @@
 <footer class="footer">
   <p>&copy; {{ now.Year }} {{ .Site.Params.name }}. All rights reserved.</p>
 </footer>
+<script>
+document.querySelectorAll('.project-carousel').forEach(carousel => {
+  const track = carousel.querySelector('.project-carousel-track');
+  const slides = carousel.querySelectorAll('.project-carousel-slide');
+  const dots = carousel.querySelectorAll('.project-carousel-dot');
+  const prev = carousel.querySelector('.project-carousel-prev');
+  const next = carousel.querySelector('.project-carousel-next');
+  if (slides.length < 2) return;
+  let current = 0;
+  function goTo(i) {
+    current = (i + slides.length) % slides.length;
+    track.style.transform = 'translateX(-' + (current * 100) + '%)';
+    dots.forEach((d, j) => d.classList.toggle('active', j === current));
+  }
+  prev.addEventListener('click', () => goTo(current - 1));
+  next.addEventListener('click', () => goTo(current + 1));
+  dots.forEach(dot => dot.addEventListener('click', () => goTo(+dot.dataset.index)));
+});
+</script>

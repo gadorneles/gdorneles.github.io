@@ -13,9 +13,28 @@
     <svg class="project-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
   </summary>
   <div class="project-card-body">
-    {{ with .image }}
-    <div class="project-card-banner">
-      <img src="{{ . }}" alt="Project banner">
+    {{ with .images }}
+    <div class="project-carousel">
+      <div class="project-carousel-track">
+        {{ range . }}
+        <div class="project-carousel-slide">
+          <img src="{{ . }}" alt="Project image">
+        </div>
+        {{ end }}
+      </div>
+      {{ if gt (len .) 1 }}
+      <button class="project-carousel-arrow project-carousel-prev" aria-label="Previous image">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <button class="project-carousel-arrow project-carousel-next" aria-label="Next image">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+      <div class="project-carousel-dots">
+        {{ range $i, $img := . }}
+        <button class="project-carousel-dot{{ if eq $i 0 }} active{{ end }}" data-index="{{ $i }}" aria-label="Go to image {{ add $i 1 }}"></button>
+        {{ end }}
+      </div>
+      {{ end }}
     </div>
     {{ end }}
     {{ with .highlights }}
