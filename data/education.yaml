@@ -2,8 +2,10 @@
   institution: "Federal University of Rio Grande (FURG)"
   period: "2025 - Present"
   description: "Research: Robotics, Intelligent Automation and Computing Systems."
+  logo: "/images/furg_logo.png"
 
 - degree: "B.Sc. in Automation Engineering"
   institution: "Federal University of Rio Grande (FURG)"
   period: "2020 - 2025"
   description: "Thesis: Dataset Generator for Affordance-Driven Robotic Manipulation Learning."
+  logo: "/images/furg_logo.png"

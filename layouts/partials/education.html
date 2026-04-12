@@ -4,12 +4,15 @@
     <div class="education-list">
       {{ range .Site.Data.education }}
       <div class="education-item">
-        <div class="education-degree">{{ .degree }}</div>
-        <div class="education-institution">{{ .institution }}</div>
-        <div class="education-period">{{ .period }}</div>
-        {{ with .description }}
-        <div class="education-description">{{ . }}</div>
-        {{ end }}
+        {{ with .logo }}<img src="{{ . }}" alt="" class="education-logo">{{ end }}
+        <div class="education-item-content">
+          <div class="education-degree">{{ .degree }}</div>
+          <div class="education-institution">{{ .institution }}</div>
+          <div class="education-period">{{ .period }}</div>
+          {{ with .description }}
+          <div class="education-description">{{ . }}</div>
+          {{ end }}
+        </div>
       </div>
       {{ end }}
     </div>

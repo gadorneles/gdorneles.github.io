@@ -362,6 +362,17 @@ img {
 .education-item {
   position: relative;
   margin-bottom: 2rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.education-logo {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  flex-shrink: 0;
+  margin-top: 0.15rem;
 }
 
 .education-item:last-child {
