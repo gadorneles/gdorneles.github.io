@@ -4,6 +4,8 @@
   logo: "/images/openrob_logo.png"
   period: "Jan 2026 - Present"
   status: "ongoing"
+  images:
+    - "/images/openrob-2.jpg"
   description: "A mobile manipulation robot prototype guided by language and vision, capable of planning and executing tasks in human-designed environments."
   highlights:
     - "Developing an integrated system combining large language models with visual perception for task planning and execution in unstructured environments."
@@ -14,6 +16,7 @@
       url: "https://github.com/OpenRob-FURG"
   # video: "https://www.youtube.com/embed/VIDEO_ID"
   related_publications:
+    - "HomeArena: Synthetic Data Generation for Fine-Tuning Vision-Language-Action Models in Service Robotics"
     - "Foundations of Vision Language Action Models for Generalist Robotic Manipulation"
     - "A Review on Dataset Collection Strategies for Learning Methods in Robotic Manipulation"
 
@@ -63,6 +66,7 @@
     - "7th place — RoboCup Salvador 2025"
     - "1st place — Brazilian Robotics Competition (CBR 2025)"
   related_publications:
+    - "BORISAgent: An Architecture for LLM-Based Task Planning in Domestic Service Robots"
     - "A Review on Dataset Collection Strategies for Learning Methods in Robotic Manipulation"
     - "AffordGen: Affordance-Based Dataset Generator for Robot Manipulation Learning"
     - "Digital Environment Description and Reconstruction Using Panoptic Segmentation"

@@ -1,17 +1,53 @@
-- title: "Foundations of Vision Language Action Models for Generalist Robotic Manipulation"
-  authors: "Gabriel Amaral Dorneles, Kristofer Stift Kappel, Rodrigo S Guerra, Paulo LJ Drews-Jr"
-  venue: "2nd Brazilian Conference on Robotics (CROS)"
-  year: 2026
-  type: "conference"
-  note: "To appear"
+- title: "BORISAgent: An Architecture for LLM-Based Task Planning in Domestic Service Robots"
+  authors: "Gabriel A. Dorneles, Richard J. C. Assis, Cris L. Froes, Enrico F. Torres, Vitor W. Anello, Guilherme M. Burkert, Murilo C. Bicho, Alisson H. Kolling, Rodrigo S. Guerra, Paulo L. J. Drews-Jr"
+  venue: "RoboCup 2026: Robot World Cup XXIX. Lecture Notes in Computer Science. Springer, Cham."
+  year: 2027
+  type: "book_chapter"
+  pdf: "/papers/BORISAgent.pdf"
+  note: "Presented at the RoboCup Symposium 2026, to appear in 2027"
   bibtex: |
-    @inproceedings{dorneles2026foundations,
-      author={Gabriel Amaral Dorneles and Kristofer Stift Kappel and Rodrigo S. Guerra and Paulo L. J. Drews-Jr},
-      title={Foundations of Vision Language Action Models for Generalist Robotic Manipulation},
-      booktitle={Proceedings of the 2nd Brazilian Conference on Robotics (CROS)},
-      year={2026},
+    @inproceedings{dorneles2026borisagent,
+      author={Dorneles, Gabriel A. and Assis, Richard J. C. and Froes, Cris L. and Torres, Enrico F. and Anello, Vitor W. and Burkert, Guilherme M. and Bicho, Murilo C. and Kolling, Alisson H. and Guerra, Rodrigo S. and Drews-Jr, Paulo L. J.},
+      title={BORISAgent: An Architecture for LLM-Based Task Planning in Domestic Service Robots},
+      booktitle={RoboCup 2026: Robot World Cup XXIX},
+      series={Lecture Notes in Computer Science},
+      publisher={Springer, Cham},
+      year={2027},
       note={To appear}
     }
+
+- title: "HomeArena: Synthetic Data Generation for Fine-Tuning Vision-Language-Action Models in Service Robotics"
+  authors: "Cris L. Froes, Gabriel A. Dorneles, Junior D. Jesus, Kristofer S. Kappel, Richard J. C. Assis, Gabriel R. de Souza, Rodrigo S. Guerra, Paulo L. J. Drews-Jr"
+  venue: "RoboCup 2026: Robot World Cup XXIX. Lecture Notes in Computer Science. Springer, Cham."
+  year: 2027
+  type: "book_chapter"
+  pdf: "/papers/HomeArena.pdf"
+  note: "Presented at the RoboCup Symposium 2026, to appear in 2027"
+  bibtex: |
+    @inproceedings{froes2026homearena,
+      author={Froes, Cris L. and Dorneles, Gabriel A. and Jesus, Junior D. and Kappel, Kristofer S. and Assis, Richard J. C. and de Souza, Gabriel R. and Guerra, Rodrigo S. and Drews-Jr, Paulo L. J.},
+      title={HomeArena: Synthetic Data Generation for Fine-Tuning Vision-Language-Action Models in Service Robotics},
+      booktitle={RoboCup 2026: Robot World Cup XXIX},
+      series={Lecture Notes in Computer Science},
+      publisher={Springer, Cham},
+      year={2027},
+      note={To appear}
+    }
+
+- title: "Foundations of Vision Language Action Models for Generalist Robotic Manipulation"
+  authors: "Gabriel A. Dorneles, Kristofer S. Kappel, Rodrigo S. Guerra, Paulo L. J. Drews-Jr"
+  venue: "2026 Brazilian Conference on Robotics (CROS)"
+  year: 2026
+  type: "conference"
+  url: "https://ieeexplore.ieee.org/document/11565761"
+  bibtex: |
+    @INPROCEEDINGS{11565761,
+      author={Dorneles, Gabriel A. and Kappel, Kristofer S. and Guerra, Rodrigo S. and Drews-Jr, Paulo L. J.},
+      booktitle={2026 Brazilian Conference on Robotics (CROS)},
+      title={Foundations of Vision Language Action Models for Generalist Robotic Manipulation},
+      year={2026},
+      pages={97-102},
+      doi={10.1109/CROS69211.2026.11565761}}
 
 - title: "A Review on Dataset Collection Strategies for Learning Methods in Robotic Manipulation"
   authors: "Gabriel Amaral Dorneles, Kristofer Stift Kappel, Stephanie Loi Brião, João Francisco de Souza Santos Lemos, Rodrigo da Silva Guerra, Paulo Lilles Jorge Drews Junior"
